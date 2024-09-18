@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(109, 103, 218);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(64, 71, 147);
+}
+
+a {
+  color: #00B7FF;
+}
+
+#navigation {
+  display: flex;
+  list-style: none;
+}
+
+#navigation li {
+  margin: 10px;
+}
+
+#spreads {
+  border: 1px black solid;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 25%;
+  height: 70vh;
+  overflow: scroll;
+}
+
+h1, h2{
+  color: white;
+}
+.indSpreads{
+  overflow: scroll;
+  padding: 0px 0px 0px 0px;
+}
+
+#spreads{
+  border: 1px black solid;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 25%;
+  height: 70vh;
+  overflow: scroll;
+}
+
+.indSpreads li{
+  border: 1px black solid;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 20px 10px 20px;
+  background-color: rgb(151, 197, 197);
+  border-radius: 25%;
+  list-style: none;
+  box-shadow: 0px 0px 5px black;
+}
+
+ul li:hover{
+  background-color: rgb(141, 180, 141);
+}
+
+
+#userInput{
+  margin: 10px;
+}
+
+label{
+  color: white;
+}
+
+#youPicked{
+  color: white;
+}

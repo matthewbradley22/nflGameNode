@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/script.js' defer)
+  body
+    header
+      ul#navigation
+        li: a(href='/scores') player scores
+        li: a(href='/pastPicks') player picks
+    block content
