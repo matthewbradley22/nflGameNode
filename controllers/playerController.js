@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const { body, validationResult } = require("express-validator");
 const asyncHandler = require("express-async-handler");
 
+
 exports.user_create_post = (req, res, next) => {
     body("name")
     .trim()
@@ -11,5 +12,6 @@ exports.user_create_post = (req, res, next) => {
     asyncHandler(async(req, res, next) => {
          // Extract the validation errors from a request.
         const errors = validationResult(req);
+        
     })
 }
