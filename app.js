@@ -4,6 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const mongoose = require('mongoose');
+mongoose.set("strictQuery", false);
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
@@ -12,8 +13,9 @@ const picksRouter = require('./routes/pastPicks');
 
 const app = express();
 
+main().catch((err) => console.log(err));
 async function main() {
-  await mongoose.connect('mongodb+srv://bradleymatthew25:qywxid-caxJew-9rukcy@picked.rkvoq.mongodb.net/?retryWrites=true&w=majority&appName=picked');
+  await mongoose.connect('mongodb+srv://bradleymatthew25:m1dAnMghIrzdCG1P@picked.rkvoq.mongodb.net/?retryWrites=true&w=majority&appName=picked');
 
 }
 // view engine setup
