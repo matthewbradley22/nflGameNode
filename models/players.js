@@ -7,3 +7,4 @@ const PlayerSchema = new Schema({
     score: Number
 })
 
+module.exports = mongoose.model("Player",PlayerSchema)

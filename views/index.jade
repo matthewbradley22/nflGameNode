@@ -7,8 +7,8 @@ block content
     #spreads
       ul.indSpreads
     .userInput
-      label(for="name") Name:
       form(method="POST")
-        input(type="text" id="name" name="name")
+        label(for="name") Name:
+        input#name(type="text" name="name")
         input(type="submit" id="submit" value="Submit") 
       p#youPicked

@@ -49,9 +49,8 @@ function clickable(){
 }
 }
 
-submit.addEventListener("click", function(){
-  youPicked.innerHTML = `You picked <br> ${currentPick}`
-})
-
+//submit.addEventListener("click", function(){
+  //youPicked.innerHTML = `You picked <br> ${currentPick}`
+//})
 
 getData();
